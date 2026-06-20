@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Form</title>
+    <style>
+        form {
+            color: rgba(31, 32, 32, 0.534);
+            
+        }
+    </style>
+<link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+    <h2>Create Account</h2>
+
+    <form>
+        <label>First name *:</label>
+        <input type="text" name="first name*" placeholder="Enter your first name"><br><br>
+
+        <label>Last Name :</label>
+        <input type="text" name="last name*" placeholder="Enter your last name"><br><br>
+
+        <label>Email *:</label>
+        <input type="email" name="email*" placeholder="Enter your email"><br><br>
+
+        <label>Password *:</label>
+        <input type="password" name="password*" placeholder="Enter your password"><br><br>
+
+        <label> Confirm Password *:</label>
+        <input type="password" name="confirm password*" placeholder="Confirm your password"><br><br>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+
+        <label>hobbies:</label>
+        <input type="radio" name="hobbies" value="Music"> Music
+        <input type="radio" name="hobbies" value="Sports"> Sports
+        <input type="radio" name="hobbies" value="Travel"> Travel
+        <input type="radio" name="hobbies" value="Movies"> Movies
+        <br><br>
+        
+
+
+<label for="slider">Income:</label>
+<input type="range" id="slider" min="0" max="20000" value=15000
+       oninput="output.value = slider.value">
+
+<output id="output">15000</output>
+
+
+
+
+        
+            <label>Source of Income:</label>
+       
+        <select name="source of income ">
+            
+            <option>employee</option>
+            <option>business</option>
+            <option>farming </option>
+            <option>Monthly Pension</option>
+        </select>
+        <br><br>
+        <br><br>
+
+        <label>Age:</label>
+        <input type="text" name="Age"><br><br>
+
+
+
+        <label>Bio:</label><br>
+        <textarea name="bio" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <input type="Create" value="Create ">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>

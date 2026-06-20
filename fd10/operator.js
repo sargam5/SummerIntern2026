@@ -17,3 +17,12 @@ console.log(a);
 
 console.log(a++);
 console.log(a);
+
+ a=2
+ a--
+ console.log(a); 
+  name="sonal"
+  console.log(name);
+  name="Anjali"
+  console.log(name);
+  

@@ -1,7 +1,7 @@
 .header {
     margin-top: 0px;
     box-sizing: border-box;
-    height: 300px;
+    height: 320px;
     width: 100%;
     color: white;
     background-color: navy;
@@ -23,4 +23,15 @@
 .header h1 {
     font-size: 36px;
     margin: 0;
+}input[type="text"],
+input[type="dob"],
+input[type="pob"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    border: none;
+     border-bottom: 2px solid black;
+    outline: none;
+    width: 300px;
+    padding: 5px;
 }

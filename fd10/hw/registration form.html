@@ -4,7 +4,7 @@
     <title>Registration Form</title>
     <link rel="stylesheet" href="registration.css">
 </head>
-<body>
+<body>   <label>Date of Birth:</label><br>
     <div class="header">
         <img src="logo.png" alt="here is the logo">
         
@@ -14,41 +14,61 @@
 
     <form>
         
-        <label>Full Name:</label><br>
-        <input type="text" name="fullname"><br><br>
+        <fieldset>
+           <legend>Personal Information</legend>
 
+                <label> Full Name:</label><br>
+           <input type="text" name="fullname"><br><br>
+
+
+        <label>Gender:</label><br>
+         <input type="radio" name="gender" value="Male"> Male
+          <input type="radio" name="gender" value="Female"> Female
+          
+          <br><br>
+          
+       
+          <input type="date" name="dob"><br><br>
+  
+          <label>Place of Birth:</label><br>
+          <input type="text" name="pob"><br><br>
+          
+          <label>Nationality</label><br>
+           <input type="text" name="nationality"><br><br>
+           <label>religion</label><br>
+           <input type="text" name="religion"><br><br>
+        
+           <label>Residence Status:</label><br>
+           <input type= "radio" name="Residence Status " value="Residence"> Residence
+           <input type="radio" name="Residence Status" value="Non residence"> Non residence
+           <br><br>
+           <label>Marital Status:</label><br>
+           <input type= "radio" name=" Marital Status " value="Single"> Residence
+           <input type="radio" name="Marital Status" value="Married"> Non residence
+           <br><br>
+              <label>National ID NO.:</label><br>
+           <input type="text" name="National ID NO."><br><br>
+              <label>TID NO.:</label><br>
+           <input type="text" name="  TID NO."><br><br>
+
+         </fieldset>  
+         <fieldset>
+
+               <label><ADDRESS></ADDRESS>:</label><br>
+                  <input type="email" name="email"><br><br>
+             <label>Password:</label><br>
+             <input type="password" name="password"><br><br>
+         </fieldset>  
+
+
+   
+        
+        
         <label>Email:</label><br>
         <input type="email" name="email"><br><br>
 
-        <label>Password:</label><br>
-        <input type="password" name="password"><br><br>
 
-        <label>Date of Birth:</label><br>
-        <input type="date" name="dob"><br><br>
-
-        <label>Place of Birth:</label><br>
-        <input type="text" name="pob"><br><br>
-
-       <label>Nationality</label><br>
-        <input type="text" name="nationality"><br><br>
-   
-
-       <input type="radio" name="gender" value="Male"> Male
-        <input type="radio" name="gender" value="Female"> Female
-        <input type="radio" name="gender" value="Other"> Other
-        <br><br><label>Gender:</label><br>
         
-        
-        
-        
-        <input type= "radio" name="Residence Status " value="Residence"> Residence
-        <input type="radio" name="Residence Status" value="Non residence"> Non residence
-        <br><br><label>Residence Status:</label><br>
-        
-
-        <label>Date of Birth:</label><br>
-        <input type="date" name="dob"><br><br>
-
         <label>Course:</label><br>
         <select name="course">
             <option>BCA</option>

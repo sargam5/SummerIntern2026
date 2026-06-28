@@ -4,7 +4,7 @@
     <title>Registration Form</title>
     <link rel="stylesheet" href="registration.css">
 </head>
-<body>   <label>Date of Birth:</label><br>
+<body>   
     <div class="header">
         <img src="logo.png" alt="here is the logo">
         
@@ -27,8 +27,8 @@
           
           <br><br>
           
-       
-          <input type="date" name="dob"><br><br>
+                 <label>Date of Birth:</label><br>
+                 <input type="date" name="dob"><br><br>
   
           <label>Place of Birth:</label><br>
           <input type="text" name="pob"><br><br>
@@ -42,10 +42,12 @@
            <input type= "radio" name="Residence Status " value="Residence"> Residence
            <input type="radio" name="Residence Status" value="Non residence"> Non residence
            <br><br>
+
            <label>Marital Status:</label><br>
-           <input type= "radio" name=" Marital Status " value="Single"> Residence
-           <input type="radio" name="Marital Status" value="Married"> Non residence
+           <input type= "radio" name=" Marital Status " value="Single"> Single
+           <input type="radio" name="Marital Status" value="Married"> Married
            <br><br>
+
               <label>National ID NO.:</label><br>
            <input type="text" name="National ID NO."><br><br>
               <label>TID NO.:</label><br>
@@ -53,42 +55,58 @@
 
          </fieldset>  
          <fieldset>
+            <legend> Contact Information</legend> 
 
-               <label><ADDRESS></ADDRESS>:</label><br>
-                  <input type="email" name="email"><br><br>
-             <label>Password:</label><br>
-             <input type="password" name="password"><br><br>
+               <label>Address:</label><br>
+                  <input type="text" name="ADDRESS"><br><br>
+          <label>City</label><br>
+           <input type="text" name="City"><br><br>
+           
+         <label>State</label><br>
+           <input type="text" name="State"><br><br>
+        
+           <label>Country</label><br>
+           <input type="text" name="Country"><br><br>
+        <label>ZIP Code</label><br>
+           <input type="text" name="ZIP Code"><br><br>
+        
+        
+             <label>Phone:</label><br>
+             <input type="phone no." name="phone"><br><br>
+             <label>Email:</label><br>
+             <input type="email" name="email"><br><br>
          </fieldset>  
+<fieldset>
+            <legend> Service Information</legend> 
 
+               <label>Service Name</label><br>
+           <input type="text" name="Service Name"><br><br>
+
+           <label>Payment Detail:</label><br>
+         <input type="radio" name="payment Detail" value="Cash"> Cash
+          <input type="radio" name="payment Detail" value="Debit Card"> Debit Card
+          <input type="radio" name="Payment Detail" value="Credit Card"> Credit Card
+          
+          <br><br>
+          <label>Comments:</label><br>
+         <input type="text" name="Comments" >
+         <input type="text" name="Comments" >
+          
+          
+          <br><br>
+
+        
+        
 
    
         
         
-        <label>Email:</label><br>
-        <input type="email" name="email"><br><br>
 
 
         
-        <label>Course:</label><br>
-        <select name="course">
-            <option>BCA</option>
-            <option>B.Tech</option>
-            <option>MCA</option>
-            <option>M.Tech</option>
-        </select>
-        <br><br>
+        
 
-        <label>Address:</label><br>
-        <textarea rows="4" cols="30"></textarea>
-        <br><br>
-
-        <input type="checkbox" required>
-        I agree to the Terms and Conditions
-        <br><br>
-
-        <input type="submit" value="Register">
-        <input type="reset" value="Reset">
-
+        
     </form>
 
 </body>
